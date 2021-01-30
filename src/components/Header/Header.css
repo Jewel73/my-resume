@@ -1,0 +1,78 @@
+.navbar{
+        
+        margin-bottom: 30px !important;
+        background-color: white !important;
+        padding: 0 24px 0 0 !important;
+        box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.13);
+        position: sticky;
+        top:0;
+        z-index: 1;
+}
+
+.header_link{
+        text-transform: uppercase;
+        font-weight: 500;
+        color: darkslategray !important;
+}
+.header_link_active{
+        text-transform: uppercase;
+        font-weight: 400;
+        color: var(--main-color) !important;
+}
+.header_link:hover{
+        color:var(--main-color) !important;
+}
+
+
+.navbar_home{
+        border-radius: 180px;
+        background-color: var(--main-color) !important;
+        padding: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+}
+
+.header_left{
+        margin-right: auto;
+}
+.home_div_padding{
+        margin:0;
+        padding: 0;
+}
+.header_right{
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+}
+
+.social_link{
+        display: flex;
+        align-items: center;
+}
+
+.social_link >a {
+        display: flex;
+        justify-content: center;
+        color: rgb(33, 190, 19);
+        font-size: 32px !important;
+        width: 24px !important;
+}
+.social_link >a :hover{
+        display: flex;
+        justify-content: center;
+        color: var(--main-color) !important;
+        font-size: 32px !important;
+        width: 24px !important;
+}
+
+.social_link >a >.MuiSvgIcon-root {
+        font-size: 19px !important;
+}
+
+.nav-link {
+        display: block;
+        padding: none !important; 
+    }
