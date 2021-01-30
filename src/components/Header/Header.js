@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeRounded from '@material-ui/icons/HomeRounded'
-import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {  Nav, Navbar } from 'react-bootstrap';
 import { NavLink, withRouter } from 'react-router-dom';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../Button/CustomButton';
@@ -25,13 +25,13 @@ export const Header = (props) => {
                                 <Nav className='header_left'>
                                         {/* Resume */}
                                         <Nav.Link as={NavLink} to="/" 
-                                        className={pathName=="/" ? "header_link_active": "header_link"}>
+                                        className={pathName==="/" ? "header_link_active": "header_link"}>
                                                 Resume
                                         </Nav.Link>
 
                                         {/* Portfolio */}
                                         <Nav.Link as={NavLink} to="/portfolio" 
-                                        className={pathName=="/portfolio"? "header_link_active": "header_link"}>
+                                        className={pathName==="/portfolio"? "header_link_active": "header_link"}>
                                                 Portfolio
                                         </Nav.Link>
                                 </Nav>
