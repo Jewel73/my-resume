@@ -6,6 +6,7 @@ import { AssignmentIndRounded, WebOutlined } from '@material-ui/icons'
 export default  {
         name: 'Md Jewel',
         title :'Full Stack Developer',
+        address: "Moghbazar Dhaka-1217",
         birthday: '19 jan 1999',
         email: "jewelranar71@gmail.com",
         phone: '01954202136',
@@ -14,7 +15,7 @@ export default  {
                 {
                         title: "Junior Software Developer",
                         date: "2020-2021",
-                        description: "In 2020, january Started new journy with naztech as a intern and now leading a major project Cocola ERP Project".
+                        description: "In 2020, january Started new journy with naztech as a intern and now leading a major project Cocola ERP Project."
                 },
                 {
                         title: "Work 2",
@@ -88,16 +89,16 @@ export default  {
         skills:[
                 {
                         title: "Front-End",
-                        description:["Javascript", "React Js", "Typescript", "Bootstrap"],  
+                        description:["Javascript", "React Js", "Material Ui", "Bootstrap"],  
                 },
                 {
                         title: "Database",
-                        description:["Javascript", "React Js", "Typescript", "Bootstrap"],
+                        description:["MySql", "Postgress Sql", "SQL", "SqlLite"],
                         
                 },
                 {
                         title: "Backend",
-                        description:["Javascript", "React Js", "Typescript", "Bootstrap"],
+                        description:["Java", "Python", "Spring Boot", "Django"],
                         
                 }
         ]
