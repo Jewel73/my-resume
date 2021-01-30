@@ -101,5 +101,68 @@ export default  {
                         description:["Java", "Python", "Spring Boot", "Django"],
                         
                 }
+        ],
+
+        projects: [
+                {
+                        tags: "React",
+                        image: "https://reactjs.org/logo-og.png",
+                        title: "React Project 1",
+                        description: "This is the project will like it so much",
+                        links:[
+                                {link: "https://google.com", icon: <GithubIcon />},
+                                {link: "https://google.com", icon: <FacebookIcon />},
+                                {link: "https://google.com", icon: <InstagramIcon />},
+                                
+                        ]
+                },
+                {
+                        tags: "Java",
+                        image: "https://reactjs.org/logo-og.png",
+                        title: "Java Project 1",
+                        description: "This is the project will like it so much",
+                        links:[
+                                {link: "https://google.com", icon: <GithubIcon />},
+                                {link: "https://google.com", icon: <FacebookIcon />},
+                                {link: "https://google.com", icon: <InstagramIcon />},
+                                
+                        ]
+                },
+                {
+                        tags: "React",
+                        image: "https://reactjs.org/logo-og.png",
+                        title: "React Project 2",
+                        description: "This is the project will like it so much",
+                        links:[
+                                {link: "https://google.com", icon: <GithubIcon />},
+                                {link: "https://google.com", icon: <FacebookIcon />},
+                                {link: "https://google.com", icon: <InstagramIcon />},
+                                
+                        ]
+                },
+                {
+                        tags: "Web Design",
+                        image: "https://reactjs.org/logo-og.png",
+                        title: "Web Design Project 1",
+                        description: "This is the project will like it so much",
+                        links:[
+                                {link: "https://google.com", icon: <GithubIcon />},
+                                {link: "https://google.com", icon: <FacebookIcon />},
+                                {link: "https://google.com", icon: <InstagramIcon />},
+                                
+                        ]
+                },
+                {
+                        tags: "Django",
+                        image: "https://reactjs.org/logo-og.png",
+                        title: "Django Project 1",
+                        description: "This is the project will like it so much",
+                        links:[
+                                {link: "https://google.com", icon: <GithubIcon />},
+                                {link: "https://google.com", icon: <FacebookIcon />},
+                                {link: "https://google.com", icon: <InstagramIcon />},
+                                
+                        ]
+                }
         ]
 }
