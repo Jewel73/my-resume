@@ -10,7 +10,8 @@ export default  {
         birthday: '19 jan 1999',
         email: "jewelranar71@gmail.com",
         phone: '01954202136',
-        about:"Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate. \n\nQuick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.",
+        about:"A talented graduate developer with a strong academic background and somecommercial experience. Ability to think through a problem coupled with theconfidence to make ideas heard. A proven ability to maintain and enhanc company software with the aim of improving operational functionality in line with business requirement. \n\nI Am currently looking for a software developer opportunity that will allow me to work alongside an expert team of developers. Thereby helping to drive me career progression to more senior roles in the future ",
+
         experience:[
                 {
                         title: "Junior Software Developer",
@@ -18,33 +19,29 @@ export default  {
                         description: "In 2020, january Started new journy with naztech as a intern and now leading a major project Cocola ERP Project."
                 },
                 {
-                        title: "Work 2",
+                        title: "Web Resarcher",
                         date: "2020-2021",
-                        description: "Started earnest brother believe an exposed so. Started earnest brother believe an exposed so.Started earnest brother believe an exposed so"
-                },
-                {
-                        title: "Work 1",
-                        date: "2020-2021",
-                        description: "Started earnest brother believe an exposed so. Started earnest brother believe an exposed so.Started earnest brother believe an exposed so"
+                        description: "I have been working on upwork as Web Researcher And Lead Generation Expert. I have completed all the projects successfully. I have 100% job  sucess rate on upwork."
                 }
+               
         ],
 
         educations: [
                 {
-                        title: "Abc University of Los Angeles",
-                        date: "2004-2009",
-                        description: "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor."
+                        title: "Dhaka Polytechnic Institute",
+                        date: "2016-2021",
+                        description: "Dhaka Polytechnic Institute is a government technical institute in Dhaka, Bangladesh. It is the largest and the oldest polytechnic academia in modern Bangladesh. The polytechnic is ranked number one on the Bangladesh Polytechnic Ranking 2018"
                 },
                 {
-                        title: "BBC  University Aus",
-                        date: "2009-2012",
-                        description: "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor."
+                        title: "National Bank Public School And College",
+                        date: "2010-2016",
+                        description: "I passed My School Life In National Bank Public School And College. "
                 },
-                {
-                        title: "Abc University of Los Angeles",
-                        date: "2015-2020",
-                        description: "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor."
-                }
+                // {
+                //         title: "Abc University of Los Angeles",
+                //         date: "2015-2020",
+                //         description: "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor."
+                // }
         ],
         socials: {
                 Facebook:{
@@ -64,24 +61,24 @@ export default  {
                 },
                 Github:{
                         link: "github.com",
-                        text: "Jewel_71",
+                        text: "Jewel73",
                         icon: <GithubIcon />
                 }
         },
         services:[
                 {
                         title: "Web Dev",
-                        description: "We will make you awsome website that will imporove your businees and reflect your money.",
+                        description: "I am here to help you craft a seamless and intuitive digital experience with quick and effective web software development.",
                         icon: <WebOutlined />,
                 },
                 {
                         title: "Web Design",
-                        description: "We will make you awsome website that will imporove your businees and reflect your money.",
+                        description: "We work closely with enterprise level customers to create outstanding high performing and secure custom websites with a focus on unique, professional web design.",
                         icon: <AssignmentIndRounded />,
                 },
                 {
-                        title: "Graphic Design",
-                        description: "We will make you awsome website that will imporove your businees and reflect your money.",
+                        title: "ERP Software Develop",
+                        description: "I Developed Cocola Food Products Limited ERP Software. I mostly work with ERPNext Software.ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by Frappé Technologies Pvt. ",
                         icon: <WebOutlined />,
                 },
         ],
@@ -89,16 +86,16 @@ export default  {
         skills:[
                 {
                         title: "Front-End",
-                        description:["Javascript", "React Js", "Material Ui", "Bootstrap"],  
+                        description:["Javascript", "React Js", "Material Ui", "Bootstrap", "Frappe"],  
                 },
                 {
                         title: "Database",
-                        description:["MySql", "Postgress Sql", "SQL", "SqlLite"],
+                        description:["MySql",, "SQL", "SqlLite"],
                         
                 },
                 {
                         title: "Backend",
-                        description:["Java", "Python", "Spring Boot", "Django"],
+                        description:["Java", "Python",  "Node  JS", "Spring Boot", "Django","Frappe"],
                         
                 }
         ],

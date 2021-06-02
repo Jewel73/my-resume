@@ -13,7 +13,7 @@ export default function Footer() {
                                         Designed And Developed by {" "}
                                         <a href="/" target="_blank">{resumeData.name}</a>
                                         <br />
-                                        Clone Idea From {" "}
+                                        Idea From {" "}
                                         <a className="idea_name" href="/" target="_blank">Travonline</a>
                                 </Typography>
                         </div>

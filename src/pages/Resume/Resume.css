@@ -52,14 +52,17 @@
         font-size: 14px !important;
         font-weight: 600 !important;
         font-style: italic;
+
 }
 .titleline_date{
-        color: rgb(129, 125, 125)!important;
+        color: rgb(221, 174, 174)!important;
+        font-weight: 400 !important;
+        font-style: italic;
 }
 .titleline_description{
-        color: rgb(87, 75, 75)!important;
-        font-size: small;
-        margin-top: 6px;
+        color: rgb(98, 129, 129) !important;
+        font-size: small !important;
+        margin-top: 6px !important;
        
 }
 
@@ -79,26 +82,28 @@
 }
 
 .service .service_title{
+        margin-bottom: 10px !important;
         font-size: 16px !important;
-        font-weight: 500 !important;
-        line-height: 35px !important;
+        font-weight: 700 !important;
+        line-height: 20px !important;
         text-align: center;
 }
 .service .service_description{
-        color: grey;
+        color: rgb(98, 129, 129) !important;
         border-color: var(--main-color) !important;
         margin-right: 5px !important;
-        text-align: center;
+        text-align: justify;
 }
 .service  .MuiSvgIcon-root{
         font-size: 40px !important;
         font-weight: 300 !important;
-        color: rgb(80, 102, 81)
+        color: rgb(49, 15, 34)
 }
 /* end service */
 
 /* skills css */
 .skill{
+        height: 300px !important;
         padding:40px!important; 
         border: 1px solid rgb(255, 249, 249) !important;
         box-shadow: 50px 55px 92px 0px rgba(0,0,0,0.13) !important;
@@ -162,3 +167,4 @@
 .button_contact_form:hover{
         background-color: #fff;
 }
+

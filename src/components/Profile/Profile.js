@@ -2,6 +2,7 @@ import { Typography } from '@material-ui/core'
 import React from 'react'
 import './Profile.css'
 import profileImage from '../../assets/images/profile.jpg'
+import cv from '../../assets/cv/JewelCV.pdf'
 import BasicTimeline, {CustomItemLineSeparator} from '../Timeline/Timeline'
 import resumeData from '../../utils/resumeData'
 import PersonIcon from '@material-ui/icons/PersonOutlineRounded'
@@ -54,7 +55,10 @@ export default function Profile() {
                                                 ) )}
                                         </BasicTimeline >
                                         <div className='btn_container' style={{display: 'flex'}}>
-                                                <CustomButton icon = {<GetAppIcon/>} text='Download CV' />
+                                                <a href={cv} download="Md Jewel CV">
+                                                        <CustomButton icon = {<GetAppIcon/>} text='Download CV' />
+                                                </a>
+                                                
                                         </div>
                         </div>
                     </div>

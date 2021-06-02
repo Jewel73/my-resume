@@ -16,7 +16,7 @@ import './App.css'
           <Grid  item xs={12} sm={12} md={4} lg={3} >
             <Profile />
           </Grid>
-          <Grid item xs >
+          <Grid  item xs={12} sm={12} md={8} lg={10} >
               
               <Router>
               <Header/>
