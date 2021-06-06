@@ -2,6 +2,7 @@ import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import GithubIcon from '@material-ui/icons/GitHub'
+import LanguageIcon from '@material-ui/icons/Language';
 import { AssignmentIndRounded, WebOutlined } from '@material-ui/icons'
 export default  {
         name: 'Md Jewel',
@@ -104,12 +105,12 @@ export default  {
                 {
                         tags: "React",
                         image: "https://reactjs.org/logo-og.png",
-                        title: "React Project 1",
-                        description: "This is the project will like it so much",
+                        title: "Covid-19 Tracker ",
+                        description: "This project will give you live covid-19 infected and died statatics",
                         links:[
                                 {link: "https://google.com", icon: <GithubIcon />},
-                                {link: "https://google.com", icon: <FacebookIcon />},
-                                {link: "https://google.com", icon: <InstagramIcon />},
+                                {link: "https://google.com", icon: <LanguageIcon />},
+                                
                                 
                         ]
                 },
@@ -120,8 +121,8 @@ export default  {
                         description: "This is the project will like it so much",
                         links:[
                                 {link: "https://google.com", icon: <GithubIcon />},
-                                {link: "https://google.com", icon: <FacebookIcon />},
-                                {link: "https://google.com", icon: <InstagramIcon />},
+                                {link: "https://google.com", icon: <LanguageIcon />},
+                                
                                 
                         ]
                 },
@@ -132,8 +133,8 @@ export default  {
                         description: "This is the project will like it so much",
                         links:[
                                 {link: "https://google.com", icon: <GithubIcon />},
-                                {link: "https://google.com", icon: <FacebookIcon />},
-                                {link: "https://google.com", icon: <InstagramIcon />},
+                                {link: "https://google.com", icon: <LanguageIcon />},
+                     
                                 
                         ]
                 },
@@ -144,8 +145,8 @@ export default  {
                         description: "This is the project will like it so much",
                         links:[
                                 {link: "https://google.com", icon: <GithubIcon />},
-                                {link: "https://google.com", icon: <FacebookIcon />},
-                                {link: "https://google.com", icon: <InstagramIcon />},
+                                {link: "https://google.com", icon: <LanguageIcon />},
+                         
                                 
                         ]
                 },
@@ -156,8 +157,8 @@ export default  {
                         description: "This is the project will like it so much",
                         links:[
                                 {link: "https://google.com", icon: <GithubIcon />},
-                                {link: "https://google.com", icon: <FacebookIcon />},
-                                {link: "https://google.com", icon: <InstagramIcon />},
+                                {link: "https://google.com", icon: <LanguageIcon />},
+                        
                                 
                         ]
                 }

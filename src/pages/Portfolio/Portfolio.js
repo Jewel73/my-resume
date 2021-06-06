@@ -1,6 +1,7 @@
 import { CardActionArea, CardMedia,Card, CardContent, Grid, Grow, Tab, Tabs, Typography, DialogTitle, DialogActions ,DialogContent, Dialog} from '@material-ui/core'
 import React, { useState } from 'react'
 import resumeData from '../../utils/resumeData'
+import Picture from '../../assets/images/profile1.jpg'
 
 export default function Portfolio() {
         const [tabValue, setTabValue] = useState("All");
@@ -14,67 +15,73 @@ export default function Portfolio() {
                                         <h6 className='section_title_text'>Portfolio </h6>
                         </Grid>
                         {/* tabs  */}
-                        <Grid item xs={6} sm={7} md={12} >
-                                <Tabs 
-                                        value={tabValue}
-                                        indicatorColor="white"
-                                        className="customTabs"
-                                        onChange={(event, newValue)=>setTabValue(newValue)}>
+                        <Grid item xs={12} >
+                                <div >
+                                        <Tabs 
+                                                value={tabValue}
+                                                indicatorColor="white"
+                                                className="customTabs"
+                                                onChange={(event, newValue)=>setTabValue(newValue)}>
 
-                                                <Tab 
-                                                        label="All"
-                                                        value="All"
-                                                        className={tabValue === "All" ? "customTabs_item active": "customTabs_item"} />
-                                        
-                                                {[...new Set(resumeData.projects.map(item=> item.tags))].map(tag=>(
                                                         <Tab 
-                                                                label={tag}
-                                                                value={tag}
-                                                                className={tabValue===tag ? "customTabs_item active": "customTabs_item"} />
-                                                ))}
-                                </Tabs>
+                                                                label="All"
+                                                                value="All"
+                                                                className={tabValue === "All" ? "customTabs_item active": "customTabs_item"} />
+                                                
+                                                        {[...new Set(resumeData.projects.map(item=> item.tags))].map(tag=>(
+                                                                <Tab 
+                                                                        label={tag}
+                                                                        value={tag}
+                                                                        className={tabValue===tag ? "customTabs_item active": "customTabs_item"} />
+                                                        ))}
+                                        </Tabs>
+                                </div>
                         </Grid>
-                        <Grid item xs={12}>
+                        <Grid xs={12}>
                                 <Grid container spacing={2}>
                                         { resumeData.projects.map(project=>(
                                                 <>
                                                         { tabValue== project.tags || tabValue=="All" ? (
-                                                                <Grid item>
-                                                                        <Grow in timeout={1000}>
-                                                                                <Card onClick={()=> setProjectDialog(project)}>
-                                                                                        <CardActionArea>
-                                                                                               <CardMedia/>
-                                                                                               <CardContent>
-                                                                                                       <Typography>{project.title}</Typography>
-                                                                                                       <Typography>{project.description}</Typography>
-                                                                                                </CardContent>
+                                                                
+                                                                        <Grid item xs={12} md={6}>
+                                                                                <Grow in timeout={2000}>
+                                                                                        <Card  style={{ textAlign: "center"}} onClick={()=> setProjectDialog(project)}>
+                                                                                                <CardActionArea>
+                                                                                                <img style={{height: "250px", width: "270px"}} src={project.image} alt="" className='dialog_image'/>
+                                                                                                <CardContent>
+                                                                                                        <Typography>{project.title}</Typography>
+                                                                                                        <Typography>{project.description}</Typography>
+                                                                                                        </CardContent>
 
-                                                                                        </CardActionArea>
-                                                                                </Card>
-                                                                        </Grow>
-                                                                </Grid>
+                                                                                                </CardActionArea>
+                                                                                        </Card>
+                                                                                </Grow>
+                                                                        </Grid>
+                                                                
                                                         ): null}
                                                 </>
                                         ))}
                                 </Grid>
                         </Grid>
 
-                        <Dialog open={projectDialog} onClose={()=> setProjectDialog(false)}>
+                        <Dialog style={{textAlign: "center"}} open={projectDialog} onClose={()=> setProjectDialog(false)}>
 
-                                <DialogTitle className='dialog_title'  onClose={()=> setProjectDialog(false)}>
-                                        {projectDialog.title}
-                                </DialogTitle>
-                                <img src="" alt="" className='dialog_image'/>
-                                <DialogContent className='dialog_description'>
-                                        {projectDialog.description}
-                                </DialogContent>
-                                <DialogActions>
-                                        {projectDialog?.links?.map(link=>(
-                                                <a href={link.link} target="_blank">
-                                                        {link.icon}
-                                                </a>
-                                        ))}
-                                </DialogActions>
+                                <Card style={{textAlign:"center"}}>
+                                        <DialogTitle className='dialog_title'  onClose={()=> setProjectDialog(false)}>
+                                                {projectDialog.title}
+                                        </DialogTitle>
+                                        <img style={{height: "250px", width: "270px"}} src={projectDialog.image} alt="" className='dialog_image'/>
+                                        <DialogContent className='dialog_description'>
+                                                {projectDialog.description}
+                                        </DialogContent>
+                                        <DialogActions>
+                                                {projectDialog?.links?.map(link=>(
+                                                        <a href={link.link} target="_blank">
+                                                                {link.icon}
+                                                        </a>
+                                                ))}
+                                        </DialogActions>
+                                </Card>
                         </Dialog>
                 </Grid>
         )

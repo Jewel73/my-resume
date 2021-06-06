@@ -21,7 +21,7 @@ export const Header = (props) => {
                         </Nav.Link>
 
                         <Navbar.Toggle />
-                        <Navbar.Collapse>
+                        <Navbar.Collapse className="navbar-collapse">
                                 <Nav className='header_left'>
                                         {/* Resume */}
                                         <Nav.Link as={NavLink} to="/" 
@@ -45,11 +45,11 @@ export const Header = (props) => {
                                                 ))}
                                         </div>
                                         
-                                        
+                                        <div className="button btn_hire_me">
+                                                <CustomButton  text="Hire Me" icon={<Telegram/>} />
+                                 </div>
                                 </div>
-                                <div className="button">
-                                                <CustomButton text="Hire Me" icon={<Telegram/>} />
-                                        </div>
+                                
                                 
                         </Navbar.Collapse>
                         </Navbar>

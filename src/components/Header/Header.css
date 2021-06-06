@@ -76,3 +76,36 @@
         display: block;
         padding: none !important; 
     }
+
+    .btn_hire_me{
+            margin-left: 10px !important;
+    }
+
+
+    @media only screen and (max-width: 990px) {
+        .header_left {
+          text-align: center;
+        }
+
+        /* .header_right ~ .button {
+                margin: 0 auto;
+                margin-top: 30px;
+        } */
+
+        .header_right{
+                margin-top: 20px !important;
+                padding: 0;
+        }
+
+        .btn_hire_me{
+                margin-left: 20px;
+        }
+        .navbar{
+               
+        }
+
+        .navbar-collapse{
+                padding-bottom: 30px !important;
+        }
+     
+      }
