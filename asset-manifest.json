@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.3f60d776.chunk.css",
-    "main.js": "/my-resume/static/js/main.02be7b55.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.02be7b55.chunk.js.map",
+    "main.css": "/my-resume/static/css/main.7d31a570.chunk.css",
+    "main.js": "/my-resume/static/js/main.9f71e1fb.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.9f71e1fb.chunk.js.map",
     "runtime-main.js": "/my-resume/static/js/runtime-main.915eda1b.js",
     "runtime-main.js.map": "/my-resume/static/js/runtime-main.915eda1b.js.map",
     "static/css/2.150d169a.chunk.css": "/my-resume/static/css/2.150d169a.chunk.css",
-    "static/js/2.06d8f9b3.chunk.js": "/my-resume/static/js/2.06d8f9b3.chunk.js",
-    "static/js/2.06d8f9b3.chunk.js.map": "/my-resume/static/js/2.06d8f9b3.chunk.js.map",
+    "static/js/2.ce848490.chunk.js": "/my-resume/static/js/2.ce848490.chunk.js",
+    "static/js/2.ce848490.chunk.js.map": "/my-resume/static/js/2.ce848490.chunk.js.map",
     "static/js/3.9f951947.chunk.js": "/my-resume/static/js/3.9f951947.chunk.js",
     "static/js/3.9f951947.chunk.js.map": "/my-resume/static/js/3.9f951947.chunk.js.map",
     "index.html": "/my-resume/index.html",
     "static/css/2.150d169a.chunk.css.map": "/my-resume/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.3f60d776.chunk.css.map": "/my-resume/static/css/main.3f60d776.chunk.css.map",
-    "static/js/2.06d8f9b3.chunk.js.LICENSE.txt": "/my-resume/static/js/2.06d8f9b3.chunk.js.LICENSE.txt",
+    "static/css/main.7d31a570.chunk.css.map": "/my-resume/static/css/main.7d31a570.chunk.css.map",
+    "static/js/2.ce848490.chunk.js.LICENSE.txt": "/my-resume/static/js/2.ce848490.chunk.js.LICENSE.txt",
     "static/media/JewelCV.ce0b18e0.pdf": "/my-resume/static/media/JewelCV.ce0b18e0.pdf",
     "static/media/index.css": "/my-resume/static/media/bg.54815803.png",
-    "static/media/profile.755c5d2b.jpg": "/my-resume/static/media/profile.755c5d2b.jpg"
+    "static/media/profile.755c5d2b.jpg": "/my-resume/static/media/profile.755c5d2b.jpg",
+    "static/media/profile1.56744167.jpg": "/my-resume/static/media/profile1.56744167.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.915eda1b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.06d8f9b3.chunk.js",
-    "static/css/main.3f60d776.chunk.css",
-    "static/js/main.02be7b55.chunk.js"
+    "static/js/2.ce848490.chunk.js",
+    "static/css/main.7d31a570.chunk.css",
+    "static/js/main.9f71e1fb.chunk.js"
   ]
 }
